@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <TextView
+            android:visibility="invisible"
+            android:gravity="center"
+            android:id="@+id/wish_text_heading"
+            android:padding="8dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/wish_text"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:fontFamily="cursive"/>
+
+    <TextView
+            android:textStyle="bold"
+            tools:text="08:08:22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/time_view"
+            android:layout_marginBottom="16dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:textSize="24sp"
+            android:fontFamily="casual"
+            android:textAlignment="center"/>
+
+    <VideoView
+            android:id="@+id/video_view"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp" />
+
+    <TextView
+            android:textColor="@android:color/white"
+            android:background="@color/cardview_dark_background"
+            android:padding="8dp"
+            android:visibility="invisible"
+            android:layout_weight="1"
+            android:text="@string/description"
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/desct_text"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp"
+            android:textStyle="normal"
+            android:fontFamily="cursive"
+            android:layout_margin="8dp"/>
+
+    <TextView
+            android:padding="16dp"
+            android:text="@string/loading_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:id="@+id/loading_text"
+            android:fontFamily="serif"/>
+
+</LinearLayout>
